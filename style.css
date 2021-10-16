@@ -88,6 +88,7 @@ header {
   left: 0;
   right: 0;
   z-index: 1000;
+
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -97,7 +98,7 @@ header {
 }
 
 header .logo {
-  font-size: 4rem;
+  font-size: 6rem;
   font-weight: bolder;
   color: black;
 }
@@ -136,6 +137,7 @@ header .navbar a:hover {
   background: url(../images/home-bg.jpg) no-repeat;
   background-size: cover;
   background-position: center;
+  border: 0.5rem dotted red;
 }
 
 .home .content {
